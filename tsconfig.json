@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "outDir": "./target/",
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "noImplicitAny": true,
+    "module": "ESNext",
+    "declaration": true,
+    "target": "es6",
+    "jsx": "react",
+    "esModuleInterop": true
+  },
+  "include": ["./src/**/*", "tests/tabs.test.tsx"],
+  "exclude": ["node_modules"]
+}
